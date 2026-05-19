@@ -90,7 +90,15 @@ reusable functions that solve specific tasks. This activity encourages:
 
 // ✅ Bonus: Can you extend any of the functions to be more flexible or reusable?
 
+// Group Members: Sherie, Sugi, Chris H.
 // Task 1: Generate Attendee Badge
+/*
+Built a function generateBade that 
+takes a name (Alice and Bob) and role and
+returns a formatted badge string with the role capitalized. 
+We used three methods charAt(0).toUpperCase()and slice(1);
+*/ 
+
 
 function generateBadge(name, role)
 {
@@ -105,6 +113,10 @@ console.log(generateBadge("Bob",  "Systems Engineer"));
 
 
 // Task 2: Calculate Event Cost
+/*
+Created function calculateEventCost to find the total cost if the number of attendees was 100 and they would a 10 percent discount.
+We took 10 percent from the total = 90 and we converted that into a decimal and that how we got 0.90
+ */
 
 function calculateEventCost(attendees,costPerAttendee){
     if (attendees > 100) {
